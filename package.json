@@ -3,6 +3,7 @@
   "version": "3.5.1",
   "description": "",
   "main": "index.js",
+  "wa-multi-session": "^1.0.6",
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
     "docker": "pm2-runtime start . --name levanter",
