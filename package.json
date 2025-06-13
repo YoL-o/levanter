@@ -3,7 +3,6 @@
   "version": "3.5.1",
   "description": "",
   "main": "index.js",
-  "wa-multi-session": "^1.0.6",
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
     "docker": "pm2-runtime start . --name levanter",
@@ -13,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "wa-multi-session": "^1.0.6",
     "axios": "^1.3.3",
     "baileys": "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git",
     "browser-id3-writer": "^4.4.0",
